@@ -1,16 +1,16 @@
 const mongoose = require('mongoose');
 
 const NoteSchema = new mongoose.Schema({
-    name: {
+    title: {
         type: String,
         required: [true, 'Please add a name'],
         unigue: false,
         maxlength: [40, 'Decription cannot be more than 40 characters']
     },
-    email: {
+    message: {
         type: String,
         required: [true, 'Please add a email'],
-        unigue: true,
+        unigue: false,
         maxlength: [140, 'Decription cannot be more than 140 characters']
     }
 })
