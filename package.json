@@ -1,20 +1,20 @@
 {
-  "name": "next-with-mongo-cloud",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "@material-ui/core": "^4.11.0",
-    "@material-ui/icons": "^4.9.1",
-    "fontsource-roboto": "^3.0.3",
-    "mongoose": "^5.9.28",
-    "next": "9.5.2",
-    "react": "16.8.6",
-    "react-dom": "16.13.1",
-    "sass": "^1.26.10"
-  }
+    "name": "next-with-mongo-cloud",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@material-ui/core": "^4.11.0",
+        "@material-ui/icons": "^4.9.1",
+        "fontsource-roboto": "^3.0.3",
+        "mongoose": "^5.9.28",
+        "next": "9.5.2",
+        "react": "16.8.6",
+        "react-dom": "16.13.1",
+        "sass": "^1.26.10"
+    }
 }

@@ -12,7 +12,10 @@ const NoteSchema = new mongoose.Schema({
         required: [true, 'Please add a email'],
         unigue: false,
         maxlength: [140, 'Decription cannot be more than 140 characters']
-    }
+    },
+    date: {
+        type: Date
+    },
 })
 
 module.exports = mongoose.models.users || mongoose.model('users', NoteSchema)

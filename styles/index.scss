@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.row-container {
+    flex-direction: column;
+    max-width: 600px;
+    padding: 0 50px;
+    margin: auto;
+}
+
+.field-item {
+    margin: 10px 0 !important
+}
+
+.header-button__item {
+    margin: 0px 20px !important
+}
+
+.note-item__card {
+    margin-bottom: 10px;
+    position: relative !important;
+}
+
+.note-item__delete-btn {
+    position: absolute !important;
+    right: 16px;
+    top: 16px;
+}
